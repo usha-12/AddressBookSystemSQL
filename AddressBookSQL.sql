@@ -21,3 +21,6 @@ select * from AddressBook;
 
 Update AddressBook set Address = 'teharka' where FirstName = 'Usha';
 select * from AddressBook;
+
+Delete from AddressBook where FirstName = 'Aditya';
+select * from AddressBook;
