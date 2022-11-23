@@ -33,10 +33,10 @@ select Count(State) from AddressBook where State = 'MH';
 select * from AddressBook where city = 'Delhi' order by FirstName;
 
 Alter table AddressBook
-Add Name varchar(20),
-Add Type varchar(20);
+Add Name varchar(20), Add Type varchar(20);
 
-Update AddressBook set Type = 'FriendsBook', Name = 'Friend' where FirstName in ('usha','ahirl');
-Update AddressBook set Type = 'FamilyBook', Name = 'Family' where FirstName in ('priti','ghadge');
+Update AddressBook set Type = 'FriendsBook', Name = 'Friend' where FirstName in ('Usha','Zeus');
+Update AddressBook set Type = 'FamilyBook', Name = 'Family' where FirstName in ('Priti','Kylie');
 select * from AddressBook;
+
 
