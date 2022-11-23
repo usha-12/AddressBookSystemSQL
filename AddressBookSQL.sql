@@ -24,3 +24,5 @@ select * from AddressBook;
 
 Delete from AddressBook where FirstName = 'Aditya';
 select * from AddressBook;
+
+select * from AddressBook where City = 'Delhi' or State = 'Delhi';
