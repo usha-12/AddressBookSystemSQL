@@ -17,4 +17,7 @@ Insert into AddressBook(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Em
 Insert into AddressBook(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email) values('Priti','ghadge','Kerla','Kerla','kr',100023,9564213370,'priti@gmail.com');
 Insert into AddressBook(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email) values('Aditya','Bharti','Patna','patna','UP',400022,9975062727,'Aditya@gmail.com');
 Insert into AddressBook(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email) values('Tusar','Patil','Maharshtra','Maharashtra','MH',400031,9956442187,'Tusar@gmial.com');
-select * from AddressBook
+select * from AddressBook;
+
+Update AddressBook set Address = 'teharka' where FirstName = 'Usha';
+select * from AddressBook;
