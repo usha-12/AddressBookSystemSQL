@@ -12,5 +12,9 @@ create table AddressBook
 	PhoneNumber bigint NOT NULL,
 	Email varchar(50) NOT NULL,
     primary key(id)
-    
-);
+    );
+Insert into AddressBook(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email) values('Usha','Ahirwal','Rohini','Delhi','Delhi',110035,7974492321,'usha12@gmail.com');
+Insert into AddressBook(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email) values('Priti','ghadge','Kerla','Kerla','kr',100023,9564213370,'priti@gmail.com');
+Insert into AddressBook(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email) values('Aditya','Bharti','Patna','patna','UP',400022,9975062727,'Aditya@gmail.com');
+Insert into AddressBook(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email) values('Tusar','Patil','Maharshtra','Maharashtra','MH',400031,9956442187,'Tusar@gmial.com');
+select * from AddressBook
