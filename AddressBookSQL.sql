@@ -29,3 +29,5 @@ select * from AddressBook where City = 'Delhi' or State = 'Delhi';
 
 select Count(City) from AddressBook where City = 'Delhi';
 select Count(State) from AddressBook where State = 'MH';
+
+select * from AddressBook where city = 'Delhi' order by FirstName
