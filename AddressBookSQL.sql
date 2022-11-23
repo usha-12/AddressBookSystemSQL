@@ -41,3 +41,6 @@ select * from AddressBook;
 
 select COUNT(name) from AddressBook;
 select * from AddressBook;
+
+INSERT INTO AddressBook(FirstName,LastName,Address,City,State,Zip,PhoneNumber,Email,type,name) VALUES('deepa', 'Singh', 'panwel', 'Mumbai', 'Maharashtra', '530044','9426625688', 'deepa@mln.com', 'Family',NULL);
+select * from AddressBook;
